@@ -1,37 +1,56 @@
-## Welcome to GitHub Pages
+# Projet JobBoard
 
-You can use the [editor on GitHub](https://github.com/FabienBounoir/JobBoard/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Présentation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Le projet **JobBoard** a été crée dans le but de mettre en relation des entreprises avec des personnes souhaitant cherche un travail.
+Les entreprise post leurs annonces, les personnes souhaitant postuler en remplissant un formulaire sur le site.
 
-### Markdown
+## Mise en route du serveur 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- Avoir installé **mysql**
 
-```markdown
-Syntax highlighted code block
+- crée la **bdd** sur mysql --> create database jobboard
 
-# Header 1
-## Header 2
-### Header 3
+- ajouter bdd **jobboad**  --> mysql -u "nomUser" -p jobboard < jobBoard.sql
 
-- Bulleted
-- List
+- **Dépendance** : 
+    - **body-parser**   --> **npm** install body-parser
+    - **express**      --> **npm** install --save express 
+    - **mysql**
+    
+lancer le serveur :
+  --> **npm** start server.js
+  
+  
+## Description des fichiers
 
-1. Numbered
-2. List
+- **server.js** <-- contient la configuration du serveur
+- **app.js** <-- contient l'api du serveur
+- **jobBoard.sql** <-- contient la base de données
+- **annonces.html** <-- contient le site internet
+- **style.css** <-- mise en forme du site
+- **script.js** <-- contient les différentes requêtes au serveur
+- **panel.js** <-- contient les differentes requete pour mettre a jour le profils
+- **panel.html** <-- contient la page html pour modifier son compte
+- **admin.js** <-- contient les differentes requete pour administrer les tables de la bdd
+- **admin.html** <-- contient la page html qui administre la bdd
 
-**Bold** and _Italic_ and `Code` text
+## Informations
 
-[Link](url) and ![Image](src)
-```
+- Auteur **Fabien Bounoir** <bounoirfabien@gmail.com>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**JobBoard 2020**
 
-### Jekyll Themes
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/FabienBounoir/JobBoard/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
