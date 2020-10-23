@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Job board inscription</title>
+</head>
+<body class="jumbot">
+    <header class ="blue">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="navbar-brand" href="annonces.html">JobBoard</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+      <div id=inscription class="container" >
+        <form class="form-horizontal" method="POST">
+          <fieldset>
+            <div id="legend">
+              <h1>Register</h1>
+            </div>
+            <div class="control-group">
+              <!-- Nom -->
+              <label class="control-label"  for="lastName">last Name :</label>
+              <div class="controls">
+                <input type="text" id="inputLastName" name="lastName" placeholder="Enter lastName" class="form-control">
+              </div>
+            </div>
+            
+            <div class="control-group">
+              <!-- Prenom -->
+              <label class="control-label"  for="firstName">first Name :</label>
+              <div class="controls">
+                <input type="text" id="inputFirstName" name="firstName" placeholder="Enter firstName" class="form-control">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <!-- E-mail -->
+              <label class="control-label" for="email">E-mail :</label>
+              <div class="controls">
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <!-- Phone -->
+              <label class="control-label" for="email">Phone :</label>
+              <div class="controls">
+                <input type="email" class="form-control" id="inputPhone" aria-describedby="emailHelp" placeholder="Enter Phone">
+              </div>
+            </div>
+
+            <div class="control-group">
+              <!-- Username -->
+              <label class="control-label"  for="username">Username :</label>
+              <div class="controls">
+                <input type="text" id="inputUsername" name="username" placeholder="Enter username" class="form-control">
+              </div>
+            </div>
+         
+            <div class="control-group">
+              <!-- Password-->
+              <label class="control-label" for="password">Password :</label>
+              <div class="controls">
+                <input type="password" id="inputPassword" name="password" placeholder="Enter password" class="form-control">
+              </div>
+            </div>
+         
+            <div class="control-group">
+              <!-- Password -->
+              <label class="control-label"  for="password_confirm">Confirm Password :</label>
+              <div class="controls">
+                <input type="password" id="inputConfirmPassword" name="password_confirm" placeholder="Confirm password" class="form-control">
+              </div>
+            </div>
+
+            <label class="control-label"  for="password_confirm">Gender :</label>
+            <div class="boutonRegister control-group">
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genre" id="inlineRadio1" value="M" checked>
+                <label class="form-check-label" for="inlineRadio1">Man</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="genre" id="inlineRadio2" value="F">
+                <label class="form-check-label" for="inlineRadio2">Female</label>
+              </div>
+            </div>
+
+            <div id=messageRegister class="control-group">
+
+            </div>
+
+            <div class="control-group">
+              <!-- Button -->
+              <div class="controls">
+                <a id=buttonRegister class="btn btn-success text-white">Register</a>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <footer class="fixed-bottom font-small text-white bg-dark ">
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> JobBoard.com</a>
+        </div>
+      </footer>
+</body>
+</html>

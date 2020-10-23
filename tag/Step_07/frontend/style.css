@@ -1,0 +1,84 @@
+div.annonce{
+    /* flex-direction: column;
+    columns: 2; */
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 2%;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 1%;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+button{
+    float: right;
+}
+
+span{
+    /* font-style: italic; */
+    font-size: 130%;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0px;
+    font-size: 120%;
+}
+
+#ad{
+    fill: #58D68D;
+}
+
+#ad:hover{
+    fill: #1D8348;
+}
+
+.modifier{
+    fill: #8071ff;
+}
+
+.modifier:hover{
+    fill: #2007ff;
+}
+
+.modifierConfirm{
+    fill: #ff71c9;
+}
+
+.modifierConfirm:hover{
+    fill: #ff009d;
+}
+
+#jobs
+{
+    margin-bottom: 6%;
+}
+
+#panelInformation{
+    margin-bottom: 6%;
+}
+
+#buttonSavePassword{
+    margin-top: 2%;
+}
+
+#buttonSaveInformation{    
+    margin-top: 2%;
+}
+
+#panelbouton{
+    margin-right: 10px;
+}
+
+#adminButton{
+    margin-right: 10px;
+}
+
+#infoRequete{
+    margin-bottom: 4%;
+}

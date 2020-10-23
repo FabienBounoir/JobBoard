@@ -1,0 +1,48 @@
+div.annonce{
+    /* flex-direction: column;
+    columns: 2; */
+    background-color: black;
+    border-radius: 25px;
+    color: white;
+    padding: 2%;
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 1%;
+    
+}
+h1{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+button{
+    float: right;
+}
+
+span{
+    /* font-style: italic; */
+    font-size: 130%;
+    text-transform: uppercase;
+}
+
+p{
+    margin: 0px;
+    font-size: 120%;
+}
+
+#jobs
+{
+    margin-bottom: 6%;
+}
+
+#panelInformation{
+    margin-bottom: 6%;
+}
+
+#buttonSavePassword{
+    margin-top: 2%;
+}
+
+#buttonSaveInformation{    
+    margin-top: 2%;
+}
